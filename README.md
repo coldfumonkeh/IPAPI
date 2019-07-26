@@ -18,7 +18,7 @@ If your subscription plan does not include HTTPS you can specify the non-SSL end
 
 ```
 objIPAPI = new ipapi(
-    apiEndpoint = 'http: //api.ipapi.com/api/',
+    apiEndpoint = 'http://api.ipapi.com/api/',
     accessKey   = '<your access key >'
 );
 ```
@@ -54,8 +54,8 @@ No IP address parameter is needed as it will use the IP of the calling machine.
 
 Both methods above have the following optional parameters:
 
-* fields - Specify a comma-separated list of specific fields to return from the API request
-* language - Defaults to `en`. Specify a 2-letter language code that can be used to translate some of the API content
-* hostname - Defaults to `false`. If set to `true` it will return hostname data for the IP address
-* security - Defaults to `false`. If set to `true` it will return security data for the IP address
-* responseFormat Defaults to `json`. Can be either `json` or `xml`
+* `fields` - Specify a comma-separated list of specific fields to return from the API request
+* `language` - Defaults to `en`. Specify a 2-letter language code that can be used to translate some of the API content
+* `hostname` - Defaults to `false`. If set to `true` it will return hostname data for the IP address
+* `security` - Defaults to `false`. If set to `true` it will return security data for the IP address
+* `responseFormat` Defaults to `json`. Can be either `json` or `xml`
