@@ -88,7 +88,7 @@ component accessors="true" {
      * @language The language for response objects
      * @hostname If set to true, hostname data will be returned if available
      * @security If set to true, security data will be returned if available
-     * @responseFormat The response format. Defaults to json
+     * @responseFormat The response format. Can be xml or json. Defaults to json.
      */
     private function makeRequest(
         required string apiURL,
